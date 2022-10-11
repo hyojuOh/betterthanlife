@@ -1,0 +1,67 @@
+.slide-wrap,{
+    position: relative;
+}
+
+.arrow{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: rgba(0,0,0,.2);
+    color: #fff;
+    line-height: 40px;
+    text-align: center;
+    font-size: 1.2rem;
+    position: absolute;
+    top: 10%;
+    transform: translateY(-50%);
+    z-index: 10;
+}
+
+.prev{
+    left: 40px;
+}
+.next{
+    right: 40px;
+}
+
+.slick-dots{
+    /* display: flex; */
+    position: absolute;
+    left: 5%;
+    transform: translateX(-50%);
+    top: 3%;
+}
+
+.slick-dots li button{
+    display: none;
+}
+
+.slick-dots li{
+    width: 5px;
+    height: 24px;
+    /* border-radius: 12px; */
+    background: #ccc;
+    margin: 10px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.slick-dots li.slick-active{
+    background: #333;
+    height: 60px;
+}
+
+.slide a{
+    height: 400px;
+}
+
+.title1{
+    position: relative;
+    transform: translate(7%,-200%);
+}
+.title2{
+    position: relative;
+    transform: translate(7%,-235%);
+}
+
+/* 반응형 */
