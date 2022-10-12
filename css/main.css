@@ -290,7 +290,7 @@ img:hover{
 }
 
 .textbox5{
-    padding-top: 48px;
+    padding-top: 72px;
     display: flex;
     font-size: .8rem;
     padding-bottom: 5px;
@@ -303,6 +303,25 @@ img:hover{
     color: #fff;
 }
 .textbox5 p:nth-child(2){
+    width: 30%;
+    text-align: center;
+    background: #FFC000;
+    color: #fff;
+}
+.textbox6{
+    padding-top: 40px;
+    display: flex;
+    font-size: .8rem;
+    padding-bottom: 5px;
+}
+.textbox6 p:nth-child(1){
+    width: 15%;
+    text-align: center;
+    background: mediumaquamarine;
+    margin-right: 5px;
+    color: #fff;
+}
+.textbox6 p:nth-child(2){
     width: 30%;
     text-align: center;
     background: #FFC000;
