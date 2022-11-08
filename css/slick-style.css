@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
 .slide-wrap,{
     position: relative;
 }
@@ -46,10 +48,53 @@
     transition: .3s;
 }
 
+/* 변경사항 */
+.slick-dots li:nth-child(1):after{
+    content: "01";
+    padding-left: 20px;
+    color: #ccc;
+}
+.slick-dots li:nth-child(2):after{
+    content: "02";
+    padding-left: 20px;
+    color: #ccc;
+}
+.slick-dots li:nth-child(3):after{
+    content: "03";
+    padding-left: 20px;
+     color: #ccc;
+}
+.slick-dots li:nth-child(4):after{
+    content: "04";
+    padding-left: 20px;
+     color: #ccc;
+}
+.slick-dots li:nth-child(5):after{
+    content: "05";
+    padding-left: 20px;
+     color: #ccc;
+}
+.slick-dots li:nth-child(6):after{
+    content: "06";
+    padding-left: 20px;
+     color: #ccc;
+}
+
+.slick-dots li.slick-active:after{
+    line-height: 60px;
+    font-size: 2rem;
+    color: #333;
+    font-family: 'Anton', sans-serif;
+    padding-left: 30px;
+}
+/* 변경 끝 */
+
+
 .slick-dots li.slick-active{
     background: #333;
     height: 60px;
 }
+
 
 .slide a{
     height: 400px;

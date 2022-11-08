@@ -49,7 +49,6 @@ li{list-style: none;}
 /* 헤더 */
 header{
     height: 140px;
-    background: #aff;
 }
 .header{
     display: flex;
@@ -82,14 +81,20 @@ header{
     background: #fff;
 }
 .sub a{
-    line-height: 32px;
+    line-height: 40px;
+}
+/* 변경 */
+.gnb li:hover{
+    background: rgb(189, 178, 252);
+    transition: .4s;
 }
 
 .sub li:hover{
-    background: rgb(146, 87, 241);
+    background: rgb(177, 133, 248);
     color: #fff;
     transition: .4s;
 }
+/* 끝 */
 
 /* 타임딜이미지 */
 #time-Dill{
@@ -329,10 +334,21 @@ img:hover{
 }
 
 /* 라이프 */
+
+/* 변경 */
 .life-title h1{
     padding-top: 80px;
     text-align: left;
+    line-height: 60px;
 }
+
+button{
+    color: #aaa;
+    width: 100px;
+    line-height: 24px;
+}
+/* 끝 */
+
 #life{
     display: flex;
     justify-content: space-between;
